@@ -1,0 +1,56 @@
+{
+  "model_name": "Neural Network",
+  "metrics": {
+    "train_accuracy": 0.9929078014184397,
+    "val_accuracy": 0.9801324503311258,
+    "test_accuracy": 0.9868421052631579,
+    "precision": 1.0,
+    "recall": 0.9705882352941176,
+    "f1_score": 0.9850746268656716,
+    "auc_score": 0.998249299719888
+  },
+  "confusion_matrix": [
+    [
+      84,
+      0
+    ],
+    [
+      2,
+      66
+    ]
+  ],
+  "selected_features": [
+    "mfcc_9_min",
+    "mfcc_11_mean",
+    "spectral_centroid_mean",
+    "spectral_centroid_median",
+    "mfcc_9_mean",
+    "mfcc_9_median",
+    "mfcc_9_max",
+    "mfcc_10_median",
+    "mfcc_10_max",
+    "mfcc_11_median",
+    "mfcc_20_mean",
+    "mfcc_20_median",
+    "chroma_1_mean",
+    "chroma_7_mean",
+    "chroma_8_mean",
+    "chroma_12_mean",
+    "spectral_contrast_band_3_mean",
+    "mfcc_5_mean",
+    "mfcc_5_median",
+    "spectral_contrast_band_4_mean",
+    "mfcc_10_mean",
+    "chroma_9_mean",
+    "tonnetz_std",
+    "mid_freq_energy",
+    "mfcc_4_mean",
+    "mfcc_5_max",
+    "mfcc_5_min",
+    "mfcc_6_mean",
+    "mfcc_6_median",
+    "spectral_contrast_band_5_mean"
+  ],
+  "n_selected_features": 30,
+  "original_features": 179
+}

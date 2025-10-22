@@ -1,0 +1,17 @@
+LEAK DETECTION MODEL PERFORMANCE SUMMARY
+==================================================
+
+Best Model: SVM
+Best F1-Score: 1.0000
+Best Test Accuracy: 1.0000
+Best AUC Score: 1.0000
+Features Used: 30
+Original Features: 179
+Feature Reduction: 83.2%
+
+Detailed Results:
+            Model  Train Accuracy  Val Accuracy  Test Accuracy  Precision   Recall  F1-Score  AUC Score
+    Random Forest             1.0      0.990909       0.990909   0.977778 1.000000  0.988764   0.998967
+Gradient Boosting             1.0      0.918182       0.954545   0.933333 0.954545  0.943820   0.994146
+              SVM             1.0      1.000000       1.000000   1.000000 1.000000  1.000000   1.000000
+          XGBoost             1.0      1.000000       0.990909   1.000000 0.977273  0.988506   0.998967
